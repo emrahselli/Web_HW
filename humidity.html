@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Weather_Web_HW</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-color: lightgray">
+        
+            <nav class="navbar navbar-default">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a class="navbar-brand logo" href="index.html"> 
+                            <span class="nav-color">Latitude</span></a>
+                        </div>
+                        <ul>
+                            <li><a href="comparison.html"> Comparison</a></li>
+                            <li><a href="data.html"> Data</a></li>
+                            <li class="dropdown">
+                                <a href="javascript:void(0)" class="dropbtn">Plots</a>
+                                <div class="dropdown-content">
+                                    <a href="temperature.html">Max Temperature</a>
+                                    <a href="humidity.html">Humidity</a>
+                                    <a href="cloudiness.html">Cloudiness</a>
+                                    <a href="wind_speed.html">Wind Speed</a>
+                                  </div>
+                            </li>
+                        </ul>
+                    </div>      
+                </nav>
+    
+        <div class = "container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <h2>Humidity</h2>
+                            <hr>
+                            <img class="hum_image" src="Resources/assets/images/Fig2.png" alt="Latitude vs Humidity" >
+                            <p>Humidity increses as we approach to the equator.</p>
+                            <br>        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                            <div class="panel panel-default">
+                                    <div class="panel-body">                                    
+                                        <h2>Visualizations</h2>
+                                        <hr>
+            
+                                        <div class="row" >
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="temperature.html"><img class = "img img-responsive" src="Resources/assets/images/Fig1.png" style="width:100%" alt="Latitude vs Max Temp"></a></div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="humidity.html"><img class = "img img-responsive" src="Resources/assets/images/Fig2.png" style="width:100%" alt="Latitude vs Humidity"></a></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="cloudiness.html"><img class = "img img-responsive" src="Resources/assets/images/Fig3.png" style="width:100%" alt="Latitude vs Cloudiness"></a></div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="wind_speed.html"><img class = "img img-responsive" src="Resources/assets/images/Fig4.png" style="width:100%" alt="Latitude vs Wind Speed"></a></div>
+                                        </div>
+                                            
+                                    </div>
+                            </div>     
+                        </div>    
+                </div>
+            </body>
+            </html>
